@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/assets/fonts/Switzer-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/assets/fonts/Switzer-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/assets/fonts/Switzer-Light.otf") format("opentype");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/src/assets/fonts/Switzer-Medium.otf") format("opentype");
+  font-weight: medium;
+  font-style: normal;
+}
