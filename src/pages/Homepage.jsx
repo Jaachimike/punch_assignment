@@ -5,6 +5,7 @@ import {Marketplace} from "../components/Marketplace";
 import {Testimonial} from "../components/Testimonial";
 import {ScreeningProcess} from "../components/ScreeningProcess";
 import Journey from "../components/Journey";
+import {FAQ} from "../components/FAQ";
 
 export const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ export const Homepage = () => {
       <Testimonial />
       <ScreeningProcess />
       <Journey />
+      <FAQ />
     </div>
   );
 };
