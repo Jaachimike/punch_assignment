@@ -6,6 +6,7 @@ import {Testimonial} from "../components/Testimonial";
 import {ScreeningProcess} from "../components/ScreeningProcess";
 import Journey from "../components/Journey";
 import {FAQ} from "../components/FAQ";
+import {Features} from "../components/Features";
 
 export const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ export const Homepage = () => {
       <Testimonial />
       <ScreeningProcess />
       <Journey />
+      <Features />
       <FAQ />
     </div>
   );

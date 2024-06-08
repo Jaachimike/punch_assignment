@@ -46,7 +46,7 @@ export const Testimonial = () => {
             </div>
           </div>
           {/* testimonial */}
-          <div>
+          <div className="mt-16">
             {/* title and profile picture */}
             <div className="flex items-center space-x-3 mb-7">
               {/* profile picture */}
@@ -61,7 +61,7 @@ export const Testimonial = () => {
             </div>
             {/* testimonial comment */}
             <div>
-              <p className="text-gray-400 text-xl">
+              <p className="text-gray-400 text-md">
                 Zwilt enabled us to deliver on time and they’ve <br /> been
                 heavy hitters in our corner since. Zwilt <br /> enabled us to
                 deliver on time and they’ve been <br /> heavy hitters in our
