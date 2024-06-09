@@ -199,7 +199,7 @@ export const Marketplace = () => {
               </div>
               <p>Explore More</p>
             </div>
-            <div className="xl:pl-20 2xl:pl-28">
+            <div className="lg:pl-8 2xl:pl-28">
               <p>
                 30 more <span className="text-gray-400">to explore</span>{" "}
               </p>
