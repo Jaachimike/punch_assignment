@@ -192,7 +192,7 @@ export const Marketplace = () => {
             </div>
           </div>
           {/* explore more */}
-          <div className="flex items-center text-sm md:text-md justify-around lg:justify-start xl:space-x-80 2xl:space-x-96 2xl:ml-16 ">
+          <div className="flex items-center text-sm md:text-md justify-around lg:justify-start xl:ml-10 xl:space-x-96 2xl:space-x-96 2xl:ml-16 ">
             <div className=" flex items-center space-x-2">
               <div className="bg-[#202229] h-fit px-2 md:px-4 py-3  md:py-5 rounded-2xl">
                 <img src={zwiltWhite} alt="" className="h-3 md:h-3" />
