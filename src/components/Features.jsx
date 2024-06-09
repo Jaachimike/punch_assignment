@@ -185,7 +185,7 @@ export const Features = () => {
     <div className="pb-36 pt-20 -skew-y-2 bg-gradient-to-b from-white to-[#F5F6FF]">
       <div className="skew-y-2 mx-8 md:mx-0 flex flex-col md:flex-row justify-between ">
         {/* left text section */}
-        <div className="md:ml-[4rem] max-w-md mt-24 mb-16 md:mb-0">
+        <div className="md:ml-20 max-w-md mt-24 mb-16 md:mb-0 ">
           <h2 className="font-bold text-4xl mb-7">
             Why choose <br /> Zwilt?
           </h2>
