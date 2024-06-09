@@ -18,8 +18,8 @@ const itAndDevelopment = [
 
 export const Hero = () => {
   return (
-    <div className="h-[85vh] mt-28 md:mt-0 mb-20 md:mb-0 max-w-[95rem] mx-8 md:mx-auto">
-      <div className="flex flex-col justify-center items-center h-full">
+    <div className="h-[85vh]  mb-20 md:mb-0 max-w-[95rem] mx-8 md:mx-auto">
+      <div className="flex flex-col items-center h-full">
         <div className=" ">
           {/* writeup */}
           <div className="flex flex-col">

@@ -12,7 +12,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="bg-[#525AA0] max-w-[95rem] mt-8 mb-20 md:mb-0 mx-4 lg:mx-auto text-white text-sm rounded-xl py-2">
+      <header className="bg-[#525AA0] max-w-[95rem] mt-8 mb-20 md:mb-28 lg:mb-32 mx-4 lg:mx-auto text-white text-sm rounded-xl py-2">
         <div className="flex justify-between items-center px-6">
           {/* Logo */}
           <div className="text-lg font-bold">
