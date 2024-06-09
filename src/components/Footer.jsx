@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="relative bg-gradient-to-b from-[#0C0C0C] to-[#202229]">
         <div className="max-w-[95rem] mx-auto pt-8 pb-20 z-20">
           {/* action banner */}
-          <div className="bg-[#525AA0] text-white -skew-y-2 mx-8 md:mx-0 mb-20 md:mb-40">
+          <div className="bg-[#525AA0] text-white -skew-y-2 mx-8 lg:mx-0 mb-20 lg:mb-40">
             <div className="skew-y-2 py-16 md:py-24 flex flex-col items-center">
               <p className=" text-2xl md:text-4xl text-center mb-8">
                 Need a job done, and done <br /> well? Get started
@@ -22,9 +22,9 @@ export const Footer = () => {
             </div>
           </div>
           {/* footer bar */}
-          <div className="flex flex-col md:flex-row md:space-x-16 mb-12">
+          <div className="flex flex-col lg:flex-row lg:space-x-16 mb-12 mx-0 md:mx-8 lg:mx-0">
             {/* column 1 */}
-            <div className="md:w-3/12 mt-3 mb-16 md:mb-0 ml-8 md:ml-0">
+            <div className="md:w-3/12 mt-3 mb-16 lg:mb-0 ml-8 md:ml-0">
               <div className="mb-7">
                 <img src={logo} alt="" />
               </div>
@@ -44,8 +44,8 @@ export const Footer = () => {
               </div>
             </div>
             {/* column 2 */}
-            <div className="flex flex-col md:w-9/12">
-              <p className="text-white text-4xl md:text-6xl mb-10 md:mb-20 text-center md:text-left">
+            <div className="flex flex-col lg:w-9/12">
+              <p className="text-white text-4xl md:text-5xl lg:text-6xl mb-10 lg:mb-20 text-center md:text-left">
                 Connecting the right people to <br /> the right businesses.
               </p>
               <div className="ml-9 md:ml-0 grid grid-cols-2 md:grid-cols-4 ">
@@ -91,7 +91,7 @@ export const Footer = () => {
         </div>
         <div className="absolute z-0 -top-8 left-0 w-full h-16 bg-[#0C0C0C] to-transparent transform -skew-y-2"></div>
         {/* sub footer */}
-        <div className="relative px-4 md:px-0 text-xs md:text-md">
+        <div className="relative px-4 lg:px-0 text-xs md:text-md">
           <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-[rgba(255,255,255,0.3)] to-[rgba(32,34,41,0.37)]"></div>
           <div className="max-w-[95rem] mx-auto py-3">
             <div className="flex justify-between">

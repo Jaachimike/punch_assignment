@@ -85,7 +85,7 @@ const designAndCreative = [
 export const Marketplace = () => {
   return (
     <div className="bg-[#EDEFFF] -skew-y-2">
-      <div className="skew-y-2 pt-20 md:pt-48 pb-24 max-w-[95rem] mx-8 md:mx-auto">
+      <div className="skew-y-2 pt-20 md:pt-48 pb-24 max-w-[95rem] mx-8 lg:mx-auto">
         {/* title */}
         <div>
           <p className="text-4xl md:text-5xl font-bold text-center mb-16">
@@ -96,12 +96,12 @@ export const Marketplace = () => {
         {/* writeup */}
         <div className="flex flex-col justify-center">
           {/* IT and Development */}
-          <div className="flex flex-col md:flex-row justify-around md:space-x-52  mb-10 ">
-            <div className="mb-10 md:mb-0">
+          <div className="flex flex-col lg:flex-row justify-around lg:space-x-52  mb-10 ">
+            <div className="mb-10 lg:mb-0">
               <p className="text-xl mt-4 mb-6">
                 Find Dev and IT professionals to <br /> scale your business.
               </p>
-              <div className="grid grid-cols-2 space-y-3 md:space-y-0 text-sm text-gray-400">
+              <div className="grid grid-cols-2 space-y-3 lg:space-y-0 text-sm text-gray-400">
                 {/* skills */}
                 <div className="flex space-x-3 items-center">
                   <img src={skillsIcon} alt="" />
@@ -142,12 +142,12 @@ export const Marketplace = () => {
             </div>
           </div>
           {/* Design and Creative */}
-          <div className="flex flex-col md:flex-row justify-around md:space-x-52  mb-10">
-            <div className="mb-10 md:mb-0">
+          <div className="flex flex-col lg:flex-row justify-around lg:space-x-52  mb-10">
+            <div className="mb-10 lg:mb-0">
               <p className="text-xl mt-4 mb-6">
                 Explore Creative individuals with a <br /> keen eye for detail.
               </p>
-              <div className="grid grid-cols-2 space-y-3 md:space-y-0 text-sm text-gray-400">
+              <div className="grid grid-cols-2 space-y-3 lg:space-y-0 text-sm text-gray-400">
                 {/* skills */}
                 <div className="flex space-x-3 items-center">
                   <img src={skillsIcon} alt="" />
@@ -190,10 +190,10 @@ export const Marketplace = () => {
             </div>
           </div>
           {/* explore more */}
-          <div className="flex items-center space-x-10 md:space-x-96 md:ml-16 ">
+          <div className="flex items-center text-sm md:text-md justify-between lg:justify-start  lg:space-x-96 lg:ml-16 ">
             <div className=" flex items-center space-x-2">
-              <div className="bg-[#202229] h-fit px-4 py-5 rounded-2xl">
-                <img src={zwiltWhite} alt="" className="h-3" />
+              <div className="bg-[#202229] h-fit px-2 md:px-4 py-3  md:py-5 rounded-2xl">
+                <img src={zwiltWhite} alt="" className="h-3 md:h-3" />
               </div>
               <p>Explore More</p>
             </div>

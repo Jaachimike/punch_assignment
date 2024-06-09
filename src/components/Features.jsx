@@ -19,20 +19,28 @@ const Frame1 = () => (
             <img
               src={bulletPointPurple}
               alt=""
-              className="mr-3 w-2 md:w-fit "
+              className="mr-2 md:mr-3 lg:mr-3 w-2 lg:w-fit "
             />
           </span>
           We pick the best for you to select
         </li>
         <li className="flex items-center">
           <span>
-            <img src={bulletPointPurple} alt="" className="mr-3 w-2 md:w-fit" />
+            <img
+              src={bulletPointPurple}
+              alt=""
+              className="mr-3 md:mr-3 lg:mr-3 w-2 lg:w-fit"
+            />
           </span>
           Thousands of vetted candidates in dozens of categories.
         </li>
         <li className="flex items-center">
           <span>
-            <img src={bulletPointPurple} alt="" className="mr-3 w-2 md:w-fit" />
+            <img
+              src={bulletPointPurple}
+              alt=""
+              className="mr-2 md:mr-3 lg:mr-3 w-2 lg:w-fit"
+            />
           </span>
           Risk-free resource swapping for the best fit.
         </li>
@@ -45,7 +53,7 @@ const Frame1 = () => (
         <p>Learn More</p>
       </div>
     </div>
-    <div className="hidden md:block">
+    <div className="hidden lg:block">
       <img src={feature1Img} alt="" className="h-[29rem]" />
     </div>
   </div>
@@ -60,19 +68,31 @@ const Frame2 = () => (
       <ul className="text-gray-600 text-sm md:text-md mb-8 md:text-nowrap">
         <li className="flex items-center">
           <span>
-            <img src={bulletPointYellow} alt="" className="mr-3 w-2 md:w-fit" />
+            <img
+              src={bulletPointYellow}
+              alt=""
+              className="mr-3 md:mr-3 lg:mr-3 w-2 lg:w-fit"
+            />
           </span>
           Easy and transparent one-to-one chat with candidates.
         </li>
         <li className="flex items-center">
           <span>
-            <img src={bulletPointYellow} alt="" className="mr-3 w-2 md:w-fit" />
+            <img
+              src={bulletPointYellow}
+              alt=""
+              className="mr-2 md:mr-3 lg:mr-3 w-2 lg:w-fit"
+            />
           </span>
           Simple and convenient payment methods.
         </li>
         <li className="flex items-center">
           <span>
-            <img src={bulletPointYellow} alt="" className="mr-3 w-2 md:w-fit" />
+            <img
+              src={bulletPointYellow}
+              alt=""
+              className=" mr-2 md:mr-1 lg:mr-3 w-2 lg:w-fit"
+            />
           </span>
           Review past ratings.
         </li>
@@ -85,7 +105,7 @@ const Frame2 = () => (
         <p>Learn More</p>
       </div>
     </div>
-    <div className="hidden md:block">
+    <div className="hidden lg:block">
       <img src={feature2Img} alt="" className="h-[29rem]" />
     </div>
   </div>
@@ -93,26 +113,26 @@ const Frame2 = () => (
 
 const Frame3 = () => (
   <div className="w-full h-full bg-white px-4 md:px-8 md:py-4 rounded-lg shadow-lg flex items-center">
-    <div className="md:w-6/12">
+    <div className="lg:w-6/12">
       <p className="font-bold text-2xl text-nowrap md:text-wrap md:text-4xl mb-7">
         Stay in the <br className="hidden md:block" /> loop.
       </p>
-      <ul className="text-gray-600 text-sm md:text-md mb-8 md:text-nowrap">
+      <ul className="text-gray-600 text-sm md:text-md mb-8 lg:text-nowrap">
         <li className="flex items-center">
           <span>
-            <img src={bulletPointGreen} alt="" className="mr-3 w-2 md:w-fit" />
+            <img src={bulletPointGreen} alt="" className="mr-3 w-2 lg:w-fit" />
           </span>
           Track your staff activity down to every minute with screenshots.
         </li>
         <li className="flex items-center">
           <span>
-            <img src={bulletPointGreen} alt="" className="mr-3 w-2 md:w-fit" />
+            <img src={bulletPointGreen} alt="" className="mr-3 w-2 lg:w-fit" />
           </span>
           Comprehensive timesheet data to process payments.
         </li>
         <li className="flex items-center">
           <span>
-            <img src={bulletPointGreen} alt="" className="mr-3 w-2 md:w-fit" />
+            <img src={bulletPointGreen} alt="" className="mr-3 w-2 lg:w-fit" />
           </span>
           Create projects to organize and assign tasks more effectively.
         </li>
@@ -125,7 +145,7 @@ const Frame3 = () => (
         <p>Learn More</p>
       </div>
     </div>
-    <div className="hidden md:block">
+    <div className="hidden lg:block">
       <img src={feature3Img} alt="" className="h-[29rem]" />
     </div>
   </div>
@@ -134,7 +154,7 @@ const Frame3 = () => (
 const frames = [<Frame1 />, <Frame2 />, <Frame3 />];
 
 const Slideshow = () => {
-  const [currentFrameIndex, setCurrentFrameIndex] = useState(0);
+  const [currentFrameIndex, setCurrentFrameIndex] = useState(2);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -149,7 +169,7 @@ const Slideshow = () => {
       {frames.map((frame, index) => (
         <div
           key={index}
-          className={`absolute top-0 md:left-64 w-full h-full transition-opacity duration-1000 ${
+          className={`absolute top-0 md:left-10 lg:left-64 w-full h-full transition-opacity duration-1000 ${
             index === currentFrameIndex ? "opacity-100" : "opacity-0"
           }`}
         >

@@ -9,7 +9,7 @@ export const Testimonial = () => {
   return (
     <div className="bg-[#202229] relative -skew-y-2">
       <img src={commaBg} alt="Top Right" className="absolute top-0 right-7" />
-      <div className="skew-y-2 py-20 md:py-48  max-w-[95rem] mx-auto">
+      <div className="skew-y-2 py-20 md:py-48 max-w-[95rem] md:mx-8 mx-auto">
         <div className="grid md:grid-cols-2">
           {/* title */}
           <div className="flex flex-col items-center md:items-start">
@@ -46,7 +46,7 @@ export const Testimonial = () => {
             </div>
           </div>
           {/* testimonial */}
-          <div className="flex flex-col items-center md:items-start mt-16">
+          <div className="flex flex-col items-center md:items-start md:mt-0 mt-16">
             {/* title and profile picture */}
             <div className="flex items-center space-x-3 mb-7 self-start ml-10 md:ml-0">
               {/* profile picture */}

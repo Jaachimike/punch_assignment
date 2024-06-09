@@ -49,16 +49,16 @@ export const FAQ = () => {
         {/* 5 */}
         <div className="border-y flex flex-col md:flex-row">
           <div className="flex-none flex  border-b md:border-b-none">
-            <div className=" w-1/2 md:w-fit text-center md:text-left text-black px-4 md:px-20 py-8 border-r">
+            <div className=" w-1/2 md:w-fit text-center md:text-left text-black px-4 md:px-16 lg:px-20 py-8 border-r">
               <p>General</p>
             </div>
-            <div className="text-center w-1/2 md:w-fit text-black px-4 md:px-16 py-8 border-r">
+            <div className="text-center w-1/2 md:w-fit text-black px-4 md:px-10 lg:px-16 py-8 border-r">
               <p>Joining Process</p>
             </div>
           </div>
 
           <div className="flex-1 justify-center hover:bg-[#E8E8E8] text-gray-400 hover:text-black relative group">
-            <p className="py-8 text-center md:text-left md:ml-32 lg:ml-80">
+            <p className="py-8 text-center text-nowrap  md:text-left md:ml-10 lg:ml-80">
               I want to work part time, is that possible?
             </p>
             <span className="absolute right-4 md:right-8 lg:right-20 top-1/2 transform -translate-y-1/2 hidden group-hover:block">

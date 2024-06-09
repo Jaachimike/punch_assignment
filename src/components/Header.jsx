@@ -12,20 +12,20 @@ export const Header = () => {
 
   return (
     <>
-      <header className="bg-[#525AA0] max-w-[95rem] mt-8 mb-20 md:mb-0 mx-4 md:mx-auto text-white text-sm rounded-xl py-2">
-        <div className="container flex justify-between items-center px-6">
+      <header className="bg-[#525AA0] max-w-[95rem] mt-8 mb-20 md:mb-0 mx-4 lg:mx-auto text-white text-sm rounded-xl py-2">
+        <div className="flex justify-between items-center px-6">
           {/* Logo */}
           <div className="text-lg font-bold">
             <img src={logo} alt="zwilt logo" className="h-8 w-auto" />
           </div>
 
           {/* Hamburger Icon */}
-          <div className="md:hidden" onClick={toggleSidebar}>
+          <div className="lg:hidden" onClick={toggleSidebar}>
             <img src={hamburgerIcon} alt="" className="h-7" />
           </div>
 
           {/* Navigation Links (Hidden on mobile) */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden lg:flex space-x-8">
             <a href="#" className="hover:underline">
               Find Work
             </a>
@@ -44,7 +44,7 @@ export const Header = () => {
           </nav>
 
           {/* Buttons (Hidden on mobile) */}
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden lg:flex space-x-4">
             <button className="py-2 px-4 rounded hover:bg-gray-200">
               Log In
             </button>
@@ -59,7 +59,7 @@ export const Header = () => {
       <div
         className={`fixed inset-0 bg-gray-800 bg-opacity-75 z-50 transform ${
           sidebarOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out md:hidden`}
+        } transition-transform duration-300 ease-in-out lg:hidden`}
       >
         <div className="absolute top-4 right-4" onClick={toggleSidebar}>
           <img src={closeIcon} alt="" className="h-7" />

@@ -10,12 +10,12 @@ import zwiltWhite from "../assets/svg/marketplace/zwiltWhite.svg";
 const Journey = () => {
   return (
     <div>
-      <div className="max-w-[95rem] mx-8 md:mx-auto md:mb-28">
+      <div className="max-w-[95rem] mx-8 lg:mx-auto lg:mb-28">
         <p className="font-bold text-4xl md:text-5xl text-center mb-16">
           Start your journey today.
         </p>
         {/* Journey 1 */}
-        <div className="-skew-y-2 bg-[#EDEFFF] pt-8 md:pt-0 px-5 h-[21rem] overflow-hidden mb-7">
+        <div className="-skew-y-2 bg-[#EDEFFF] py-3 md:py-0 md:pt-5 lg:pt-0 px-5 lg:h-[21rem] overflow-hidden mb-7">
           <div className="skew-y-2 flex justify-between items-center">
             {/* write up */}
             <div className="flex space-x-5">
@@ -23,7 +23,7 @@ const Journey = () => {
                 <img src={no1} alt="" />
               </div>
               <div>
-                <h2 className="text-3xl font-semibold mb-5">
+                <h2 className="text-3xl md:text-2xl lg:text-3xl font-semibold mb-5">
                   Find your next star <br /> performer.
                 </h2>
                 <p className=" text-gray-600 mb-5">
@@ -46,7 +46,7 @@ const Journey = () => {
           </div>
         </div>
         {/* Journey 2 */}
-        <div className="-skew-y-2 bg-[#FFF7E1] pt-12 md:pt-0 px-5 h-[21rem] overflow-hidden mb-7">
+        <div className="-skew-y-2 bg-[#FFF7E1] py-3 md:py-0 md:pt-5 lg:pt-0 px-5 lg:h-[21rem] overflow-hidden mb-7">
           <div className="skew-y-2 flex justify-between items-center">
             {/* write up */}
             <div className="flex space-x-5">
@@ -77,7 +77,7 @@ const Journey = () => {
           </div>
         </div>
         {/* Journey 3 */}
-        <div className="-skew-y-2 bg-[#F3F3F3] pt-12 md:pt-0 px-5 h-[21rem] overflow-hidden">
+        <div className="-skew-y-2 bg-[#F3F3F3] py-3 md:py-0 md:pt-5 lg:pt-0 px-5 lg:h-[21rem] overflow-hidden">
           <div className="skew-y-2 flex justify-between items-center">
             {/* write up */}
             <div className="flex space-x-5">
