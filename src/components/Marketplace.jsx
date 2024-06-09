@@ -85,7 +85,7 @@ const designAndCreative = [
 export const Marketplace = () => {
   return (
     <div className="bg-[#EDEFFF] -skew-y-2">
-      <div className="skew-y-2 pt-20 lg:pt-32 xl:pt-48 pb-24 max-w-[95rem] mx-8 xl:mx-10 2xl:mx-auto">
+      <div className="skew-y-2 pt-20 lg:pt-32 xl:pt-48 pb-24 max-w-[95rem] mx-10 2xl:mx-auto">
         {/* title */}
         <div>
           <p className="text-4xl md:text-5xl font-bold text-center mb-16">

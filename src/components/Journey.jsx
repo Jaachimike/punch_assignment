@@ -10,7 +10,7 @@ import zwiltWhite from "../assets/svg/marketplace/zwiltWhite.svg";
 const Journey = () => {
   return (
     <div>
-      <div className="max-w-[95rem] mx-8 2xl:mx-auto lg:mb-28">
+      <div className="max-w-[95rem] mx-10 2xl:mx-auto lg:mb-28">
         <p className="font-bold text-4xl md:text-5xl text-center mb-16">
           Start your journey today.
         </p>

@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="relative bg-gradient-to-b from-[#0C0C0C] to-[#202229]">
         <div className="max-w-[95rem] mx-auto pt-8 pb-20 z-20">
           {/* action banner */}
-          <div className="bg-[#525AA0] text-white -skew-y-2 mx-8 2xl:mx-0 mb-20 lg:mb-40">
+          <div className="bg-[#525AA0] text-white -skew-y-2 mx-10 2xl:mx-0 mb-20 lg:mb-40">
             <div className="skew-y-2 py-16 md:py-24 flex flex-col items-center">
               <p className=" text-2xl md:text-4xl text-center mb-8">
                 Need a job done, and done <br /> well? Get started
@@ -22,7 +22,7 @@ export const Footer = () => {
             </div>
           </div>
           {/* footer bar */}
-          <div className="flex flex-col lg:flex-row lg:space-x-16 mb-12 mx-0 md:mx-8 2xl:mx-0">
+          <div className="flex flex-col lg:flex-row lg:space-x-16 mb-12 mx-0 md:mx-10 2xl:mx-0">
             {/* column 1 */}
             <div className="md:w-4/12 2xl:w-3/12 mt-3 mb-16 lg:mb-0 ml-8 md:ml-0">
               <div className="mb-7">
