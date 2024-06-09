@@ -58,7 +58,7 @@ export const FAQ = () => {
           </div>
 
           <div className="flex-1 justify-center hover:bg-[#E8E8E8] text-gray-400 hover:text-black relative group">
-            <p className="py-8 text-center text-nowrap  md:text-left md:ml-4 xl:ml-36 2xl:ml-80">
+            <p className="py-8 text-center text-nowrap  md:text-left md:ml-4 xl:ml-52 2xl:ml-80">
               I want to work part time, is that possible?
             </p>
             <span className="absolute right-4 md:right-8 lg:right-20 top-1/2 transform -translate-y-1/2 hidden group-hover:block">
