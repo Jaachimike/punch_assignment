@@ -85,10 +85,10 @@ const designAndCreative = [
 export const Marketplace = () => {
   return (
     <div className="bg-[#EDEFFF] -skew-y-2">
-      <div className="skew-y-2 pt-48 pb-24 max-w-[95rem] mx-auto">
+      <div className="skew-y-2 pt-20 md:pt-48 pb-24 max-w-[95rem] mx-8 md:mx-auto">
         {/* title */}
         <div>
-          <p className="text-5xl font-bold text-center mb-16">
+          <p className="text-4xl md:text-5xl font-bold text-center mb-16">
             Your one-stop marketplace for finding <br /> the talent your
             business needs.
           </p>
@@ -96,12 +96,12 @@ export const Marketplace = () => {
         {/* writeup */}
         <div className="flex flex-col justify-center">
           {/* IT and Development */}
-          <div className="flex justify-around space-x-52 mb-10 ">
-            <div className="">
+          <div className="flex flex-col md:flex-row justify-around md:space-x-52  mb-10 ">
+            <div className="mb-10 md:mb-0">
               <p className="text-xl mt-4 mb-6">
                 Find Dev and IT professionals to <br /> scale your business.
               </p>
-              <div className="grid grid-cols-2 text-sm text-gray-400">
+              <div className="grid grid-cols-2 space-y-3 md:space-y-0 text-sm text-gray-400">
                 {/* skills */}
                 <div className="flex space-x-3 items-center">
                   <img src={skillsIcon} alt="" />
@@ -121,13 +121,16 @@ export const Marketplace = () => {
             </div>
             <div className="bg-white p-5 rounded-lg">
               <p className="mb-6">IT & Development</p>
-              <div className=" flex space-x-7">
+              <div className=" grid grid-cols-2  md:flex md:space-x-7">
                 {itAndDevelopment.map((item, index) => (
-                  <div key={index} className=" text-center text-sm">
+                  <div
+                    key={index}
+                    className=" flex mb-6 md:mb-0 flex-col md:justify-start items-center md:text-center text-sm"
+                  >
                     <div
                       className={`bg-[#F6F6F6] ${
                         item.name === "" ? "rounded-3xl" : "rounded-full"
-                      }  p-8 mb-2`}
+                      }   p-8 mb-2`}
                     >
                       <img src={item.logo} alt="" className="h-8 w-8" />
                     </div>
@@ -139,12 +142,12 @@ export const Marketplace = () => {
             </div>
           </div>
           {/* Design and Creative */}
-          <div className="flex justify-around space-x-52 mb-5">
-            <div className="">
+          <div className="flex flex-col md:flex-row justify-around md:space-x-52  mb-10">
+            <div className="mb-10 md:mb-0">
               <p className="text-xl mt-4 mb-6">
                 Explore Creative individuals with a <br /> keen eye for detail.
               </p>
-              <div className="grid grid-cols-2 text-sm text-gray-400">
+              <div className="grid grid-cols-2 space-y-3 md:space-y-0 text-sm text-gray-400">
                 {/* skills */}
                 <div className="flex space-x-3 items-center">
                   <img src={skillsIcon} alt="" />
@@ -164,9 +167,12 @@ export const Marketplace = () => {
             </div>
             <div className="bg-white p-5 rounded-lg">
               <p className="mb-6">Design & Creative</p>
-              <div className=" flex space-x-7">
+              <div className="  grid grid-cols-2  md:flex md:space-x-7">
                 {designAndCreative.map((item, index) => (
-                  <div className=" text-center text-sm">
+                  <div
+                    key={index}
+                    className="flex mb-6 md:mb-0 flex-col md:justify-start items-center md:text-center text-sm"
+                  >
                     <div
                       className={`bg-[#F6F6F6] ${
                         item.name === "" ? "rounded-3xl" : "rounded-full"
@@ -184,14 +190,14 @@ export const Marketplace = () => {
             </div>
           </div>
           {/* explore more */}
-          <div className="flex items-center space-x-96 ml-16 ">
-            <div className=" flex items-center space-x-2 ">
+          <div className="flex items-center space-x-10 md:space-x-96 md:ml-16 ">
+            <div className=" flex items-center space-x-2">
               <div className="bg-[#202229] h-fit px-4 py-5 rounded-2xl">
                 <img src={zwiltWhite} alt="" className="h-3" />
               </div>
               <p>Explore More</p>
             </div>
-            <div className="pl-24">
+            <div className="md:pl-24">
               <p>
                 30 more <span className="text-gray-400">to explore</span>{" "}
               </p>

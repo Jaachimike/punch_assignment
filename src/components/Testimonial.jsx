@@ -9,10 +9,10 @@ export const Testimonial = () => {
   return (
     <div className="bg-[#202229] relative -skew-y-2">
       <img src={commaBg} alt="Top Right" className="absolute top-0 right-7" />
-      <div className="skew-y-2 pt-48 pb-48 max-w-[95rem] mx-auto">
-        <div className="grid grid-cols-2">
+      <div className="skew-y-2 py-20 md:py-48  max-w-[95rem] mx-auto">
+        <div className="grid md:grid-cols-2">
           {/* title */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h2 className="text-5xl mb-7 text-white font-bold">
               How it worked <br /> for Jason
               <span className="align-middle mx-3 inline-flex">
@@ -32,7 +32,7 @@ export const Testimonial = () => {
               hitters in our corner since.
             </p>
             {/* direction buttons */}
-            <div className=" flex space-x-3 ">
+            <div className=" flex self-start space-x-3 ml-10 md:ml-0 ">
               <div className="bg-white w-fit px-5 py-5 rounded-2xl">
                 <img src={zwiltDirectionalButton} alt="" />
               </div>
@@ -46,9 +46,9 @@ export const Testimonial = () => {
             </div>
           </div>
           {/* testimonial */}
-          <div className="mt-16">
+          <div className="flex flex-col items-center md:items-start mt-16">
             {/* title and profile picture */}
-            <div className="flex items-center space-x-3 mb-7">
+            <div className="flex items-center space-x-3 mb-7 self-start ml-10 md:ml-0">
               {/* profile picture */}
               <div>
                 <img src={grooveLogo} alt="groove logo" />

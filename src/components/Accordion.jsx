@@ -42,7 +42,7 @@ export const Accordion = () => {
   };
 
   return (
-    <div className="text-[#202229] w-5/12 mt-8">
+    <div className="text-[#202229] md:w-5/12 mt-8">
       {steps.map((step, index) => (
         <div key={index} className="mb-4 shadow-md">
           <div
