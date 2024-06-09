@@ -4,7 +4,7 @@ import {Accordion} from "./Accordion";
 export const ScreeningProcess = () => {
   return (
     <div className="text-black mt-20 md:mt-32 lg:mt-44 mb-24 md:mb-32 lg:mb-52">
-      <div className="max-w-[95rem] mx-8 lg:mx-auto ">
+      <div className="max-w-[95rem] mx-8 2xl:mx-auto ">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
           How we ensure you’re <br /> in good hands.
         </h2>

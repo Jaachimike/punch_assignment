@@ -18,9 +18,9 @@ const itAndDevelopment = [
 
 export const Hero = () => {
   return (
-    <div className="h-[85vh]  mb-20 md:mb-0 max-w-[95rem] mx-8 md:mx-auto">
+    <div className="h-[85vh]  mb-20 lg:mb-40 2xl:mb-0 max-w-[95rem] mx-8 md:mx-auto">
       <div className="flex flex-col items-center h-full">
-        <div className=" ">
+        <div className=" mb-6">
           {/* writeup */}
           <div className="flex flex-col">
             <p className=" text-5xl md:text-6xl mb-4 text-center font-bold">
