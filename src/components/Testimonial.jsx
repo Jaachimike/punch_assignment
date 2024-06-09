@@ -32,7 +32,7 @@ export const Testimonial = () => {
               hitters in our corner since.
             </p>
             {/* direction buttons */}
-            <div className=" flex self-start space-x-3 ml-10 md:ml-0 ">
+            <div className=" flex self-start space-x-3  md:ml-0 ">
               <div className="bg-white w-fit px-5 py-5 rounded-2xl">
                 <img src={zwiltDirectionalButton} alt="" />
               </div>
@@ -48,7 +48,7 @@ export const Testimonial = () => {
           {/* testimonial */}
           <div className="flex flex-col items-center md:items-start mt-16">
             {/* title and profile picture */}
-            <div className="flex items-center space-x-3 mb-7 self-start ml-10 md:ml-0">
+            <div className="flex items-center space-x-3 mb-7 self-start ">
               {/* profile picture */}
               <div>
                 <img src={grooveLogo} alt="groove logo" />
