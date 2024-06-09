@@ -9,7 +9,7 @@ export const Testimonial = () => {
   return (
     <div className="bg-[#202229] relative -skew-y-2">
       <img src={commaBg} alt="Top Right" className="absolute top-0 right-7" />
-      <div className="skew-y-2 py-20 md:py-48 max-w-[95rem] xl:mx-10 2xl:mx-8 mx-auto">
+      <div className="skew-y-2 py-20 md:py-48 max-w-[95rem] mx-10 2xl:mx-auto">
         <div className="grid md:grid-cols-2">
           {/* title */}
           <div className="flex flex-col items-center md:items-start">
