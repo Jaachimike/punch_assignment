@@ -207,7 +207,7 @@ export const Marketplace = () => {
             </div>
           </div>
         </div>
-        {/* writeup small */}
+        {/* writeup mobile */}
         <div className="flex lg:hidden flex-col justify-center">
           {/* IT and Development */}
           <div className="flex flex-col justify-around  mb-10 ">
