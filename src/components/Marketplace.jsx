@@ -94,13 +94,129 @@ export const Marketplace = () => {
           </p>
         </div>
         {/* writeup */}
-        <div className="flex flex-col justify-center">
-          {/* IT and Development */}
-          <div className="flex flex-col lg:flex-row justify-around lg:space-x-20 2xl:space-x-52  mb-10 ">
+        <div className="hidden lg:flex justify-between">
+          {/* column 1 */}
+          <div className="flex gap-y-24 flex-col pt-3">
+            {/* find dev */}
             <div className="mb-10 lg:mb-0">
               <p className="text-lg 2xl:text-xl mt-4 mb-6">
                 Find Dev and IT professionals to{" "}
                 <br className="hidden 2xl:block" /> scale your business.
+              </p>
+              <div className="grid grid-cols-2 space-y-3 text-sm text-gray-400">
+                {/* skills */}
+                <div className="flex space-x-3 items-center">
+                  <img src={skillsIcon} alt="" />
+                  <p>989 Skills</p>
+                </div>
+                {/* sub categories */}
+                <div className="flex space-x-3 items-center">
+                  <img src={subCategoriesIcon} alt="" />
+                  <p>45 Sub-Categories</p>
+                </div>
+                {/* profiles */}
+                <div className="flex space-x-3 items-center">
+                  <img src={profilesIcon} alt="" />
+                  <p>1011 Profiles</p>
+                </div>
+              </div>
+            </div>
+            {/* explore creative */}
+            <div className="mb-10 lg:mb-0">
+              <p className="text-lg 2xl:text-xl mt-4 mb-6">
+                Explore Creative individuals with a{" "}
+                <br className="hidden 2xl:block" /> keen eye for detail.
+              </p>
+              <div className="grid grid-cols-2 space-y-3  text-sm text-gray-400">
+                {/* skills */}
+                <div className="flex space-x-3 items-center">
+                  <img src={skillsIcon} alt="" />
+                  <p>989 Skills</p>
+                </div>
+                {/* sub categories */}
+                <div className="flex space-x-3 items-center">
+                  <img src={subCategoriesIcon} alt="" />
+                  <p>45 Sub-Categories</p>
+                </div>
+                {/* profiles */}
+                <div className="flex space-x-3 items-center">
+                  <img src={profilesIcon} alt="" />
+                  <p>1011 Profiles</p>
+                </div>
+              </div>
+            </div>
+            {/* explore more */}
+            <div className=" flex items-center space-x-2">
+              <div className="bg-[#202229] h-fit px-2 md:px-4 py-3  md:py-5 rounded-2xl">
+                <img src={zwiltWhite} alt="" className="h-3 md:h-3" />
+              </div>
+              <p>Explore More</p>
+            </div>
+          </div>
+          {/* column 2 */}
+          <div className="flex gap-y-8 flex-col ">
+            {/* it and development */}
+            <div className="bg-white p-5 rounded-lg">
+              <p className="mb-6">IT & Development</p>
+              <div className=" grid grid-cols-2  md:flex md:space-x-7">
+                {itAndDevelopment.map((item, index) => (
+                  <div
+                    key={index}
+                    className=" flex mb-6 md:mb-0 flex-col md:justify-start items-center md:text-center text-sm"
+                  >
+                    <div
+                      className={`bg-[#F6F6F6] ${
+                        item.name === "" ? "rounded-3xl" : "rounded-full"
+                      }   p-8 mb-2`}
+                    >
+                      <img src={item.logo} alt="" className="h-8 w-8" />
+                    </div>
+                    <p>{item.desc1}</p>
+                    <p>{item.desc2}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* design and creative */}
+            <div className="bg-white p-5 rounded-lg">
+              <p className="mb-6">Design & Creative</p>
+              <div className="  grid grid-cols-2  md:flex md:space-x-7">
+                {designAndCreative.map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex mb-6 md:mb-0 flex-col md:justify-start items-center md:text-center text-sm"
+                  >
+                    <div
+                      className={`bg-[#F6F6F6] ${
+                        item.name === "" ? "rounded-3xl" : "rounded-full"
+                      } ${
+                        item.name === "" ? "transform rotate-180" : ""
+                      }   p-8 mb-2`}
+                    >
+                      <img src={item.logo} alt="" className="h-8 w-8" />
+                    </div>
+                    <p>{item.desc1}</p>
+                    <p>{item.desc2}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* 30 more to explore */}
+            <div className="pt-2">
+              <p>
+                30 more <span className="text-gray-400">to explore</span>{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* writeup small */}
+        <div className="flex lg:hidden flex-col justify-center">
+          {/* IT and Development */}
+          <div className="flex flex-col justify-around  mb-10 ">
+            <div className="mb-10">
+              <p className="text-lg mt-4 mb-6">
+                Find Dev and IT professionals to <br className="hidden" /> scale
+                your business.
               </p>
               <div className="grid grid-cols-2 space-y-3 text-sm text-gray-400">
                 {/* skills */}
@@ -143,11 +259,11 @@ export const Marketplace = () => {
             </div>
           </div>
           {/* Design and Creative */}
-          <div className="flex flex-col lg:flex-row justify-around lg:space-x-20 2xl:space-x-52  mb-10">
-            <div className="mb-10 lg:mb-0">
-              <p className="text-lg 2xl:text-xl mt-4 mb-6">
-                Explore Creative individuals with a{" "}
-                <br className="hidden 2xl:block" /> keen eye for detail.
+          <div className="flex flex-col justify-around mb-10">
+            <div className="mb-10 ">
+              <p className="text-lg  mt-4 mb-6">
+                Explore Creative individuals with a <br className="hidden " />{" "}
+                keen eye for detail.
               </p>
               <div className="grid grid-cols-2 space-y-3  text-sm text-gray-400">
                 {/* skills */}
@@ -192,14 +308,16 @@ export const Marketplace = () => {
             </div>
           </div>
           {/* explore more */}
-          <div className="flex items-center text-sm md:text-md justify-around lg:justify-start xl:ml-10 xl:space-x-96 2xl:space-x-96 2xl:ml-16 ">
+          <div className="flex items-center text-sm justify-between">
+            {/* div 1 */}
             <div className=" flex items-center space-x-2">
               <div className="bg-[#202229] h-fit px-2 md:px-4 py-3  md:py-5 rounded-2xl">
                 <img src={zwiltWhite} alt="" className="h-3 md:h-3" />
               </div>
               <p>Explore More</p>
             </div>
-            <div className="lg:pl-8 2xl:pl-28">
+            {/* div 2  */}
+            <div>
               <p>
                 30 more <span className="text-gray-400">to explore</span>{" "}
               </p>
