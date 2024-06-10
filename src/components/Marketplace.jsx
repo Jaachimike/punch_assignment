@@ -100,8 +100,7 @@ export const Marketplace = () => {
             {/* find dev */}
             <div className="mb-10 lg:mb-0">
               <p className="text-lg 2xl:text-xl mt-4 mb-6">
-                Find Dev and IT professionals to{" "}
-                <br className="hidden 2xl:block" /> scale your business.
+                Find Dev and IT professionals to <br /> scale your business.
               </p>
               <div className="grid grid-cols-2 space-y-3 text-sm text-gray-400">
                 {/* skills */}
@@ -124,8 +123,7 @@ export const Marketplace = () => {
             {/* explore creative */}
             <div className="mb-10 lg:mb-0">
               <p className="text-lg 2xl:text-xl mt-4 mb-6">
-                Explore Creative individuals with a{" "}
-                <br className="hidden 2xl:block" /> keen eye for detail.
+                Explore Creative individuals with a <br /> keen eye for detail.
               </p>
               <div className="grid grid-cols-2 space-y-3  text-sm text-gray-400">
                 {/* skills */}

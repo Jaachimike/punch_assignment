@@ -45,7 +45,7 @@ export const Header = () => {
 
           {/* Buttons (Hidden on mobile) */}
           <div className="hidden lg:flex space-x-4">
-            <button className="py-2 px-4 rounded hover:bg-gray-200">
+            <button className="py-2 px-4 rounded hover:underline">
               Log In
             </button>
             <button className="bg-white text-[#525AA0] py-2 px-4 rounded-xl hover:bg-gray-200">
